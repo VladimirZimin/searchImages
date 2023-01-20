@@ -1,0 +1,30 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/",
+    "server": "json-server --watch db.json -p 4040 -d 300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirZimin/Parcel-template"
+  },
+  "keywords": [],
+  "author": "Vladimir Zimin <zimin.frontend@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "prettier": "2.8.3",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "modern-normalize": "^1.1.0"
+  }
+}

@@ -1,0 +1,27 @@
+/* Цвета */
+$header-color--black: #000000;
+$header-color--mob: #242424;
+$icon-color: #826550;
+$advantages-color: #353535;
+$content-color: #f8f5f2;
+$footer-color: #292929;
+
+/* Размер шрифта */
+$main-font: "PTSans Narrow",
+Arial,
+sans-serif;
+$font-size: 20px;
+$line-height: 1.2;
+
+/* Размер контейнера */
+$mobile-wrap: 280px;
+$tablet-wrap: 640px;
+$desktop-wrap: 960px;
+
+/* Breakpoint */
+$b-mobile: 320;
+$b-tablet: 768;
+$b-desktop: 1200;
+$b-mobile-only: $b-tablet - 1;
+
+// Отступы
