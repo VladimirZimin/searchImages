@@ -6,7 +6,7 @@
   "homepage": "https://vladimirzimin.github.io/searchimages/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /searchImages/",
+    "build": "parcel build src/*.html --public-url /searchimages/",
     "server": "json-server --watch db.json -p 4040 -d 300"
   },
   "repository": {

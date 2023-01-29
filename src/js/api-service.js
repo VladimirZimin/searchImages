@@ -1,6 +1,8 @@
 const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '33022433-0efd7ccbf8abb7290c8dd54c5';
 
+let query = 'dog';
+
 export default async function fetchImages(query, page, perPage) {
   try {
     const response = await fetch(
