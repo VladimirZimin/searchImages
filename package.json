@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://vladimirzimin.github.io/searchimages/",
+  "homepage": "https://vladimirzimin.github.io/searchimages",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /searchimages/",
+    "build": "parcel build src/*.html",
+    "deploy": "gh-pages -d dist",
     "server": "json-server --watch db.json -p 4040 -d 300"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.11",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
