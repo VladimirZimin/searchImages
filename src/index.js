@@ -1,5 +1,5 @@
-// import 'simple-lightbox/dist/simpleLightbox.min.css';
-// import './sass/main.scss';
+import 'simple-lightbox/dist/simpleLightbox.min.css';
+import './sass/main.scss';
 import getRefs from './js/get-refs';
 import { onScroll, onToTopBtn } from './js/scroll';
 import fetchImages from './js/api-service';
