@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
-  "homepage": "https://vladimirzimin.github.io/searchImages/",
+  "homepage": "https://vladimirzimin.github.io/searchimages/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /searchImages/",
@@ -12,12 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladimirzimin/searchImages"
+    "url": "git+https://github.com/vladimirzimin/searchimages"
   },
   "keywords": [],
   "author": "Vladimir Zimin <zimin.frontend@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^4.1.11",
     "parcel": "^2.8.3",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
@@ -33,4 +33,3 @@
     "simple-lightbox": "^2.1.0"
   }
 }
-

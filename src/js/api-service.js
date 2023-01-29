@@ -1,6 +1,3 @@
-// import 'regenerator-runtime/runtime';
-// import axios from 'axios';
-
 const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '33022433-0efd7ccbf8abb7290c8dd54c5';
 
